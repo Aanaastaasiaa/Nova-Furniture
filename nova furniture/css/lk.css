@@ -1,0 +1,72 @@
+header{
+    background-image:  url("../images/page_4.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 20% 60%;
+    height: 300px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+}
+
+.header1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*конец хедера и оформления контейнеров*/
+
+/*логотип и телефон в хедере*/
+.logo{
+    position: relative;
+}
+
+.logotext {
+    margin-top: 10px;
+    margin-left: 60px;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.logotext2{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-left: 12px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+a{
+    color:rgb(255, 255, 255);
+}
+
+.tel{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 10px;
+    transition: 1s;
+}
+/*конец логотипа и телефона в хедере*/
+
+.maintext{
+    max-width: 1400px;
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.maintext a{
+    font-size: 24px;
+    color: blue;
+    font-weight: 600;
+}
